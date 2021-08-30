@@ -1,0 +1,12 @@
+{
+  "discord": {
+    "token": ""
+  },
+
+  "mail": {
+    "from": "",
+    "password": "",
+    "SMTPHost": "",
+    "SMTPPort": ""
+  }
+}
