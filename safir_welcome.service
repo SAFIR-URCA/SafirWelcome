@@ -1,0 +1,19 @@
+[Unit]
+Description=SAFIR Welcome BOT
+After=network-online.target
+
+[Service]
+Type=simple
+
+User=safir_welcome
+Group=safir_welcome
+UMask=007
+
+WorkingDirectory=/opt/safir_welcome
+ExecStart=/opt/safir_welcome/SafirWelcome
+
+# Configures the time to wait before service is stopped forcefully.
+TimeoutStopSec=300
+
+[Install]
+WantedBy=multi-user.target
